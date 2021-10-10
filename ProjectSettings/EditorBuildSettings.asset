@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hallway.unity
+    guid: e9017d5f96b9f09489b4b37e1d6eb914
+  - enabled: 1
+    path: Assets/Scenes/BedRoom 1.unity
+    guid: 274b78f48b19aff4a83de9dac71ce242
+  - enabled: 1
+    path: Assets/Scenes/BedRoom 2.unity
+    guid: 35a5aa393f64e1b4c9c242ea3bdc53ff
+  - enabled: 1
+    path: Assets/Scenes/BedRoom 3.unity
+    guid: 7db7b1630a09a414ababdbbcf5e61643
+  - enabled: 1
+    path: Assets/Scenes/BedRoom 4.unity
+    guid: 4c6c437402c54384f9fc4eb03dff2340
+  - enabled: 1
+    path: Assets/Scenes/BedRoom 5.unity
+    guid: 8f4a65cf8e70fe045b4fc95c6f87993c
+  - enabled: 1
+    path: Assets/Scenes/BedRoom 6.unity
+    guid: 2888eb5594f0db74da9bbbcf6478d61d
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/Puzle_Safe.unity
+    guid: 065118a4bdad5ee4b8a1c342a044b620
   m_configObjects: {}
