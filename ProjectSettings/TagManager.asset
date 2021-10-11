@@ -7,6 +7,9 @@ TagManager:
   - ItemQuest
   - Wall
   - Ground
+  - Box
+  - GameOver
+  - GroundBox
   layers:
   - Default
   - TransparentFX

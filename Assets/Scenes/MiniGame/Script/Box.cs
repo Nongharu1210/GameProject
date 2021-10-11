@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Box : MonoBehaviour
 {
-    private float min_x = -445.0f, max_x = 446.0f;
+    private float min_x = -445.0f, max_x = 447.0f;
     private bool canMove;
-    private float move_speed = 10f;
+    private float move_speed = 2f;
     private Rigidbody2D rb;
     
     // Start is called before the first frame update
@@ -43,10 +43,10 @@ public class Box : MonoBehaviour
             temp.x += move_speed * Time.deltaTime;
             if (temp.x>max_x)
             {
-                move_speed *= 50f;
+                move_speed *= -1f;
             }else if (temp.x < min_x)
             {
-                move_speed *= 50f;
+                move_speed *= -1f;
             }
             transform.position = temp;
         }
