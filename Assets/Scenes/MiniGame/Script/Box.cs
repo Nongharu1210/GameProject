@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Box : MonoBehaviour
 {
-    private float min_x = -2.32f, max_x = 2.32f;
+    private float min_x = -445.0f, max_x = 446.0f;
     private bool canMove;
-    private float move_speed = 50f;
+    private float move_speed = 10f;
     private Rigidbody2D rb;
     
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class Box : MonoBehaviour
         canMove = true;
         if (Random.Range(0, 2) > 0)
         {
-            move_speed *= 5f;
+            move_speed *= 2f;
         }
     }
 
@@ -43,10 +43,10 @@ public class Box : MonoBehaviour
             temp.x += move_speed * Time.deltaTime;
             if (temp.x>max_x)
             {
-                move_speed *= -1f;
+                move_speed *= 50f;
             }else if (temp.x < min_x)
             {
-                move_speed *= -1f;
+                move_speed *= 50f;
             }
             transform.position = temp;
         }
@@ -55,6 +55,6 @@ public class Box : MonoBehaviour
     public void DropBox()
     {
         canMove = false;
-        rb.gravityScale = Random.Range(2,4);
+        rb.gravityScale = Random.Range(60,100);
     }
 }
