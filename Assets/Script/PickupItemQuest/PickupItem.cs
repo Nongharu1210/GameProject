@@ -26,11 +26,11 @@ public class PickupItem : MonoBehaviour
         
     }
 
-    private void OnTriggerExit(Collider other) {
-        if(other.gameObject.transform.tag == "Player"){
-            //ให้กำหนดว่าทำอะไร
-            other.gameObject.GetComponent<ItemQuestSystem>().PickupPanel.SetActive(false);
-        }
-    }
+    // private void OnTriggerExit(Collider other) {
+    //     if(other.gameObject.transform.tag == "Player"){
+    //         //ให้กำหนดว่าทำอะไร
+    //         other.gameObject.GetComponent<ItemQuestSystem>().PickupPanel.SetActive(false);
+    //     }
+    // }
     
 }

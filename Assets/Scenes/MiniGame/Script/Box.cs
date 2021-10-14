@@ -14,7 +14,7 @@ public class Box : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0f;
+        //rb.gravityScale = 0f;
     }
     void Start()
     {
