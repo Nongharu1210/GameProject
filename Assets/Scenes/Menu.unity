@@ -790,8 +790,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -634.1, y: 0}
-  m_SizeDelta: {x: -1520.9469, y: 0}
+  m_AnchoredPosition: {x: -634.0999, y: 0.6000061}
+  m_SizeDelta: {x: -1520.9469, y: 34.32495}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &329506345
 MonoBehaviour:
@@ -2668,6 +2668,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _newGameLevel: Hallway
   noSevedGameDialogue: {fileID: 509368933}
+  volumeTextValue:
+    m_ElementType: 0
+    m_Unicode: 0
+    m_GlyphIndex: 0
+    m_Scale: 0
+  volumeSlider: {fileID: 0}
+  ConfirmationPrompt: {fileID: 0}
 --- !u!1 &1958155965
 GameObject:
   m_ObjectHideFlags: 0
@@ -2945,13 +2952,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ef26a09486742ae43b3afc43e5c28b43, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.36
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 138
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
